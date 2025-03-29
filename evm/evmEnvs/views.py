@@ -9,6 +9,7 @@ def index(request):
     return HttpResponse(data, content_type="text/html")
 
 def evmList(request):
+
     print(request.path)
     print(request)
     # 业务代码
